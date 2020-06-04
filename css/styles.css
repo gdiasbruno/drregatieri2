@@ -1,0 +1,78 @@
+body {
+  background-color: #EBEDED;
+  font-family: 'Dosis', sans-serif;
+}
+
+/* NAVBAR */
+
+a {
+
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+
+}
+
+a:hover {
+  color:#62B28A;
+  text-decoration: none;
+}
+
+/* CAROUSEL */
+
+.carousel-item {
+  padding: 7% 15%;
+  text-align: center;
+  }
+
+
+
+.sensor {
+  width: 500px;
+}
+
+#carouselExampleControls {
+  text-align: center;
+}
+
+.carousel-icon {
+  background-color: #62B28A;
+  border-radius: 50%;
+  width: 5rem;
+}
+
+@media screen and (max-width: 700px) {
+  .sensor {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sensor {
+    width: 270px;
+  }
+}
+
+
+/* PONTEIROS */
+
+
+
+/* LIGADO E DESLIGADO */
+
+.row {
+  height: 380px;
+}
+
+.emb {
+  text-align: center;
+}
+
+.ld {
+  margin-top: 30px;
+}
+
+/* GRAFICO LINHA */
+.dash {
+  height: 500px;
+}
