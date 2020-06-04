@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dr. Caio Regatieri</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- JS Boot Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar bg-light navbar-light navbar-expand-lg">
+    <a class="navbar-brand" href="http://www.drcaioregatieri.com/">Dr. Caio <strong>Regatieri</strong> </a>
+
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="ponteiros.html" role="button"  >
+          Mostradores de Ponteiro
+        </a>
+
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Gráfico de Linha
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="grafico-linha.html">Sensor 2 RETINA</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Ligado/Desligado
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="ligado-desligado.html">Sensor 2 RETINA</a>
+        </div>
+      </li>
+    </ul>
+    </nav>
+
+  <div id="carouselExampleControls" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h2>Sensor de Corrente Tomografo 2233</h2>
+        <iframe class = "widget" width="430" height="280" frameborder="0" src="https://app.ubidots.com/ubi/getchart/D4jPg4cpcDlkNpZBBjIdZZrKv7Y"></iframe>
+      </div>
+      <div class="carousel-item">
+        <h2>Sensor de Corrente CAMPO 2234</h2>
+        <iframe width="430" height="280" frameborder="0" src="https://app.ubidots.com/ubi/getchart/UMYqbfdQiOIj8-_AxE1eMxowzJ4"></iframe>
+      </div>
+      <div class="carousel-item">
+        <h2>Sensor de Corrente 1</h2>
+        <iframe width="430" height="280" frameborder="0" src="https://app.ubidots.com/ubi/getchart/MjpWI98qMhnLObkYdczIuMTTtY0"></iframe>
+      </div>
+
+
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon carousel-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon carousel-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+</body>
+
+</html>
